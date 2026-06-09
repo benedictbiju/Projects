@@ -6,10 +6,10 @@
 
 import random
 
-print("hi welcome to rock paper sissors game by benedict")
+print("hi welcome to rock paper sissor game by benedict")
 print("the game is played out of 3")
 
-actions = ["rock", "paper", "sissors"]
+actions = ["rock", "paper", "sissor"]
 
 computer_score = 0
 user_score = 0
@@ -30,16 +30,16 @@ while True:
     elif computer_action1 == "paper" and user_action1 == "rock":
         computer_score += 1
         print(f"computer selected {computer_action1}")
-    elif computer_action1 == "paper" and user_action1 == "sissors":
+    elif computer_action1 == "paper" and user_action1 == "sissor":
         user_score += 1
         print(f"computer selected {computer_action1}")
-    elif computer_action1 == "sissors" and user_action1 == "paper":
+    elif computer_action1 == "sissor" and user_action1 == "paper":
         computer_score += 1
         print(f"computer selected { computer_action1}")
-    elif computer_action1 == "rock" and user_action1 == "sissors":
+    elif computer_action1 == "rock" and user_action1 == "sissor":
         computer_score += 1
         print(f"computer selected {computer_action1}")
-    elif computer_action1 == "sissors" and user_action1 == "rock":
+    elif computer_action1 == "sissor" and user_action1 == "rock":
         user_score += 1
         print(f"computer selected {computer_action1}")
     elif computer_action1 == user_action1:
@@ -65,16 +65,16 @@ while True:
     elif computer_action2 == "paper" and user_action2 == "rock":
         computer_score += 1
         print(f"computer selected {computer_action2}")
-    elif computer_action2 == "paper" and user_action2 == "sissors":
+    elif computer_action2 == "paper" and user_action2 == "sissor":
         user_score += 1
         print(f"computer selected {computer_action2}")
-    elif computer_action2 == "sissors" and user_action2== "paper":
+    elif computer_action2 == "sissor" and user_action2== "paper":
         computer_score += 1
         print(f"computer selected {computer_action2}")
-    elif computer_action2 == "rock" and user_action2 == "sissors":
+    elif computer_action2 == "rock" and user_action2 == "sissor":
         computer_score += 1
         print(f"computer selected {computer_action2}")
-    elif computer_action1 == user_action1:
+    elif computer_action2 == user_action2:
         print("its a draw")
         draw += 1
     else:
@@ -100,16 +100,16 @@ while True:
     elif computer_action3 == "paper" and user_action3 == "rock":
         computer_score += 1
         print(f"computer selected {computer_action3}")
-    elif computer_action3 == "paper" and user_action3 == "sissors":
+    elif computer_action3 == "paper" and user_action3 == "sissor":
         user_score += 1
         print(f"computer selected {computer_action3}")
-    elif computer_action3 == "sissors" and user_action3 == "paper":
+    elif computer_action3 == "sissor" and user_action3 == "paper":
         computer_score += 1
         print(f"computer selected {computer_action3}")
-    elif computer_action3 == "rock" and user_action3 == "sissors":
+    elif computer_action3 == "rock" and user_action3 == "sissor":
         computer_score += 1
         print(f"computer selected {computer_action3}")
-    elif computer_action1 == user_action1:
+    elif computer_action3 == user_action3:
         print("its a draw")
         draw += 1
     else:
